@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web</title>
+    </head>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 50%;
+            transform: translate(0%,70%);
+            background: linear-gradient(90deg,rgb(195, 0, 255), blue);
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.274);
+            width: 400px;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 7px 8px 8px #333333;
+            
+        }
+        .about > h1 {
+            color: white;
+            Text-align: center;
+            padding: 20px;
+            text-transform: uppercase;
+        }
+        form {
+            text-align: center;
+        }
+        .input {
+            display: block;
+            border-radius: 5px;
+            width: 80%;
+            padding: 8px;
+            font-size: 16px;
+            margin: auto;
+            margin-bottom: 8px;
+        }
+        #submit {
+            margin-top: 18px;
+            width: 100px;
+            height: 50px;
+            border-radius: 15px;
+            background-color:#3333335e;
+            font-size: 16px;
+            cursor: pointer;
+            color:azure;
+            transition: background-color 0.3s ease;
+            border-style: solid;
+        }
+        #submit:hover{
+            background-color:cadetblue;
+        }
+        
+    </style>
+    <body>
+        <div class = "container">
+            <div class = "about">
+                <h1>Login</h1>
+            </div>
+            <form>
+                <input type = "text" id = "user" class = "input" placeholder = "Username">
+                <input type = "text" id = "pass" class = "input" placeholder = "Password">
+                <input type = "submit" id = "submit" value = "Log-In">
+            </form>
+        </div>
+    </body>
+</html>
