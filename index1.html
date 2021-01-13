@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dank Memer - Georgian edition</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+            * {
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            .left-side {
+                display: flex;
+            }
+            .gametracker-image {
+                width: 66px;
+                position: absolute;
+                top: 1.5px;
+                right:30px; 
+            }
+            .nav-wrapper {
+                background-color: transparent;
+                padding: 26px;
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+            }
+            .left-side  a {
+                text-decoration: none;
+                color:rgba(187, 180, 180, 0.986);
+                transition: color 0.3s;
+            }
+            .left-side a:hover {
+                color:ghostwhite;
+                border-bottom: ghostwhite;
+            }
+            .link-wrapper {
+               margin-right: 26px;
+            }
+
+
+
+
+            .mid {
+                background: url("backg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+            }
+            .get {
+                outline: none;
+                text-align: center;
+                padding: 10px 22px;
+                border-radius: 24px;
+                border: solid;
+                margin-top: 22px;
+                border:none;
+                background: linear-gradient(90deg,pink,cyan);
+                font-size: 22px;
+                font-family: 'Potta One', cursive;
+                color:rgba(99, 80, 80, 0.993);
+                transition: all 0.4s ease;
+            }
+            .but {
+                text-align: center;
+            }
+            .get:hover {
+                cursor: pointer;
+                color:rgb(133, 30, 133);
+                opacity: 0.5;
+                transform:scale( 1.05);
+            }
+            .dis {
+                height: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class = "mid">
+            <div class = "container">
+                <div class = "nav-wrapper">
+                    <div class = "left-side">
+                        <div class = "link-wrapper">
+                            <a href = "#">Home</a>
+                        </div>
+                        <div class = "link-wrapper">
+                            <a href = "#">Commands</a>
+                        </div>
+                        <div class = "link-wrapper">
+                            <a href = "#">Support</a>
+                        </div>
+                    </div>
+                    <div class = "right-side">
+                    </div>
+                </div>
+                <img class = "gametracker-image"src = "circle-cropped.png">
+                    <h1 style = "font-family: 'Potta One', cursive; color:azure; text-align:center; font-size: 28px; padding-top: 230px;">GAMETRACKER BOT</h1>
+                <div class = "but">
+                    <button class = "get">Get the bot</button>
+                </div>
+            </div>
+            <div class = "animation-class">
+                <img class = "dis" src = "discord.png">
+            </div>
+        </div>
+    </body>
+</html>
